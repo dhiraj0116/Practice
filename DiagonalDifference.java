@@ -23,7 +23,7 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class DiagonalDifferenceResult {
 
   /*
    * Complete the 'diagonalDifference' function below.
@@ -71,7 +71,7 @@ public class DiagonalDifference {
       }
     });
 
-    int result = Result.diagonalDifference(arr);
+    int result = DiagonalDifferenceResult.diagonalDifference(arr);
 
     bufferedWriter.write(String.valueOf(result));
     bufferedWriter.newLine();
